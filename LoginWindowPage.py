@@ -60,5 +60,4 @@ class Login:
             # Destorying the temporary window created for login
             self.login_window.destroy()
             self.main_page.redirect_to_page(result, self.login_type)
-            # self.f.destroy()
-            # the type of login was admin so go to adminhomepage
+            
